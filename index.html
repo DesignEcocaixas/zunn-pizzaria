@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CDI animado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Droid+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/chunkfive" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="logo">
+        <img src="./logo.png" alt="logo">
+    </div>
+
+    <!-- Luzes de fundo -->
+    <div class="blur-light light1"></div>
+    <div class="blur-light light2"></div>
+
+    <!--<div class="text">
+        <em>
+            <h2>Peça sua pizza <br> diferenciada!</h2>
+        </em>
+    </div>-->
+
+    <!-- Conteúdo principal -->
+    <div class="content">
+        <!--<div class="link-container">
+            <i id="icon-wp" class="fab fa-whatsapp fa" style="color: #fff;"></i>
+            <a href="https://wa.me/557191742166" target="_blank" style="margin-right: 10px;">Whatsapp</a>
+        </div>-->
+
+        <div class="link-container">
+            <i id="icon-ig" class="fab fa-instagram fa" style="color: #fff;"></i>
+            <a href="https://www.instagram.com/bataspizza/" target="_blank">Nosso insta</a>
+        </div>
+
+        <!--<div class="link-container">
+            <i class="fa-solid fa-fire-burner" style="color: #fff;"></i>
+            <a href="https://maps.app.goo.gl/E1b4hhVZWy4nfDxe6" target="_blank">Pedir churrasco</a>
+        </div>-->
+
+        <div class="link-container">
+            <i id="icon-pd" class="fas fa-receipt" style="color: #fff;"></i>
+            <a href="https://l.instagram.com/?u=http%3A%2F%2Fpedir.delivery%2Fbataspizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnanDad6lS-CclTXNtyaGhqGvPA1zZhttXA4-PY1Q-q0Tqoj5abN9ADQzxwZ4_aem_pWuVq-JlP2vhQkk6K-NWVQ&e=AT6wE5e8Mer7TyWEgmp29IzzQ2zsBn8lgpv2_sYxsGd-Q-Ui8_jnvGTY9EcGPhsBvSh-kL-xi8dwrDD5K5nocPuM8DipWt1xMXJg2p7o4A"
+                target="_blank">Peça aqui</a>
+        </div>
+
+        <div class="link-container">
+            <i id="icon-pd" class="fa-solid fa-star" style="color: #fff;"></i>
+            <a href="https://www.google.com/search?q=batas+pizzaria&rlz=1C1GCEA_enBR1114BR1114&oq=batas+pizzaria&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIQCAEQLhivARjHARiABBiOBTIICAIQABgWGB4yCAgDEAAYFhgeMgoIBBAAGIAEGKIEMgoIBRAAGIAEGKIEMgcIBhAAGO8F0gEIMjQ3MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&lqi=Cg5iYXRhcyBwaXp6YXJpYUiHp8WGwa2AgAhaGBAAEAEYABgBIg5iYXRhcyBwaXp6YXJpYZIBEHBpenphX3Jlc3RhdXJhbnSaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnBTVjJWR2FIaFhhelZ5VVhwTk5WUnFhRXhTYkVaNVRWYzFSMkl4UlJBQvoBBAgAECQ#lkt=LocalPoiReviews&rlimm=1789075326040226005&lrd=0x716115b5c835957:0x18d41287b50b38d5,3,,,,"
+                target="_blank">Nos avalie</a>
+        </div>
+    </div>
+
+    <div class="boas-praticas">
+        <a href="https://drive.google.com/file/d/1SEHZvFw3fsg7jPuPa2e64fjTDSwXE0pN/view">Boas práticas</a>
+        <i class="fas fa-hand-pointer"></i>
+    </div>
+
+    <!-- Tela de introdução com logo -->
+    <!--<div id="splash">
+        <img src="logo-ecocaixas.png" alt="Eco Caixas" id="logo">
+    </div>-->
+
+
+    <!-- DESCOMENTAR PARA APLICAR EFEITO DE OBJETOS QUE CAEM
+    <img src="./obj/hamburger1.png" alt="" class="folha folha1">
+    <img src="./obj/tomate1.png" alt="" class="folha folha2">
+    <img src="./obj/hamburger3.png" alt="" class="folha folha3">
+    <img src="./obj/alface1.png" alt="" class="folha folha4">-->
+
+    <!--CONTAINER COM VÍDEO DE FUNDO-->
+    <video autoplay muted loop playsinline id="bgVideo">
+        <!--ALTERE O NÚMERO DE "pizzaria5" PARA O NUMERO DO VÍDEO DESEJADO-->>
+        <source src="./bg/bg-pizzaria.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+
+    <!-- TELA DE ENTRADA COM BOTÃO -->
+    <!--<div id="startScreen" class="start-screen">
+        <button id="enterBtn">
+            <i class="fas fa-pizza-slice"></i> Menu da Pizzaria
+        </button>
+    </div>-->
+
+    <!-- SPLASH COM A LOGO -->
+    <!--<div id="splash" class="splash">
+        <img id="logo" src="logo.png" alt="Logo" />
+    </div>-->
+
+    <!-- ÁUDIO -->
+    <!--<audio id="meuAudio" src="/audio/musica1.mp3" preload="auto"></audio>-->
+
+    <!--<div class="shape" id="shape1"></div>
+    <div class="shape" id="shape2"></div>-->
+
+
+    <script src="./script.js"></script>
+</body>
+
+
+</html>
+
